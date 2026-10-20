@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "Koulen";
+    src: url('../fonts/Koulen/Koulen-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Battambang";
+    src: url('../fonts/Battambang/Battambang-Regular.ttf');
+}
+
+@font-face {
+    font-family: "OpenSanBold";
+    src: url('../fonts/Open_Sans/static/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: "OpenSanRegular";
+    src: url('../fonts/Open_Sans/static/OpenSans-Regular.ttf');
+
+}
+
+body{
+    font-family: 'Battambang','OpenSanReguler';
+}
+h1,h2,h3,h4,h5,h6,.nav-link{
+    font-family: 'Koulen','OpenSanBold';
+    color: blue;
+}
+h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover,.nav-link:hover{
+    color: red;
+    scale: 1.1;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+.site-footer {
+  background-color: #1a2221;
+  color: #a0a5a4;
+  font-family: 'Khmer OS Siemreap', Arial, sans-serif;
+  padding-top: 40px;
+  border-top: 1px solid #2c3534;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 20px 40px 20px;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+  padding-right: 20px;
+}
+
+.footer-col h3 {
+  color: #2ecc71;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer-col p {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #cfd3d2;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: #cfd3d2;
+}
+
+.footer-col ul li a {
+  color: #cfd3d2;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-col ul li a:hover,
+.footer-col ul li a.active {
+  color: #2ecc71;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #2c3534;
+  padding: 15px 0;
+  font-size: 12px;
+  color: #888;
+}
